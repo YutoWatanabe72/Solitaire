@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-/// <summary>
+﻿/// <summary>
 /// カードのスプライト変更の記録を保存
 /// </summary>
 public class CardFlipCommand : IAction

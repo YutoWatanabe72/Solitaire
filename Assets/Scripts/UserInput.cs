@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
 
 public class UserInput : MonoBehaviour
@@ -46,7 +44,7 @@ public class UserInput : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             clickCount++;
-            Debug.Log(clickCount);
+            //Debug.Log(clickCount);
 
 
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y - 10));
